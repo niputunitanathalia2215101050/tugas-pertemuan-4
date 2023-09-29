@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portofolio tailwind css</title>
+    <link href="dist/output.css" rel="stylesheet">
+</head>
+<body>
+<!-- Header Start -->
+<header class="bg-transparent absolute top-0 left-0 w-full flex items-center z-10">
+    <div class="container">
+        <div class="flex items-center justify-between relative">
+            <div class="px-4">
+                <a href="#hero" class="font-bold text-dark block py-6 text-2xl text-center w-200 ">Nita Nathalia</a>
+            </div>
+            <div class="flex items-center px-4">
+                <button id="hamburger" name="hamburger" type="buttom" class="block absolute right-4 lg:hidden">
+                    <span class="hamburger-line transition duration-300 ease-in-out origin-top-left"></span>
+                    <span class="hamburger-line transition duration-300 ease-in-out"></span>
+                    <span class="hamburger-line transition duration-300 ease-in-out origin-bottom-left"></span>
+                </button>
+
+                <nav id="nav-menu" class="hidden absolute py-5 bg-white shadow-lg rounded-lg max-w-[250px] w-full right-4 top-full lg:block lg:max-w-full lg:static lg:bg-transparent lg:rounded-none lg:shadow-none">
+                    <ul class="block lg:flex">
+                        <li class="group">
+                            <a href="#hero" class="text-base font-semibold text-dark py-2 mx-8 group-hover:text-purple-400 flex border-b lg:border-b-0 ">Home</a>
+                        </li>
+                        <li class="group">
+                            <a href="about.html" class="text-base font-semibold text-dark py-2 mx-8 group-hover:text-purple-400 flex border-b lg:border-b-0">About Me</a>
+                        </li>
+                        <li class="group">
+                            <a href="project.html" class="text-base font-semibold text-dark py-2 mx-8 group-hover:text-purple-400 flex border-b">Portofolio</a>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </div>
+</header>
+<!-- Header End -->
+
+<!-- Hero Section Start -->
+<section id="hero" class="pt-20">
+    <div class="container">
+        <div class="flex flex-wrap mt-5">
+            <div class="w-full self-center px-4 lg:w-1/2" >
+                <p class="text-base font-semibold text-dark md:text-xl lg:first-letter:text-2xl ">Hy Everyone!👋, I'm <span class=" block font-bold text-dark text-4xl mt-1  "> Ni Putu Nita Nathalia</span></p>
+                <p class="font-medium text-blue-950 mb-10 leading-relaxed text-ellipsis ">COMPUTER SCIENCE STUDENT 2022</span></p>
+                
+            </div>
+            <div class="w-full self-end px-4 lg:w-1/2">
+                <div class="mt-5">
+                    <img src="dist/nitanat.png" alt="Foto Nita Nathalia" 
+                    class="max-w-full mx-auto rounded-full shadow-lg mb-10 bg-slate-300 ">
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- Hero Section End -->
+
+<!-- Footer Section -->
+<section id="footer" class="bg-dark mt-10">
+    <div class="container py-5 text-slate-300">
+        <div class="w-full px-4 text-center"> 
+            <h1>Develop with ❤️ by Ni Putu Nita Nathalia</h1>
+        </div>
+    </div>
+</section>
+
+<script src="dist/js/script.js"></script>
+</body>
+</html>
